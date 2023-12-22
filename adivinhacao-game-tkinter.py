@@ -4,6 +4,8 @@ import tkinter
 # Criando a janela principal
 janela = tkinter.Tk()
 janela.title("Jogo de Adivinhação")
+janela.geometry('400x200')
+janela.resizable(False, False)
 
 # Gerando um valor aleatório entre 1 e 5
 valor_aleatorio = random.randint(1, 5)
